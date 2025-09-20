@@ -1,9 +1,7 @@
-reqs = """streamlit
+streamlit
 pandas
 numpy
 scikit-learn
 joblib
-"""
-with open("requirements.txt", "w") as f:
-    f.write(reqs)
-print("requirements.txt written.")
+matplotlib
+seaborn
